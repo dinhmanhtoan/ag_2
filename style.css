@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: black;
+}
+.container{
+    width: 60%;
+    margin: auto;
+    padding: 80px 80px 0 80px;
+    background-color: white;
+}
+
+.header-main{
+    border-bottom: 1px dashed red;
+    padding: 0 20px 20px 20px;
+
+}
+.header-main .main{
+    width: 50%;
+    float: left;
+}
+.header-main .main img {
+    text-align: start;
+    width: 80px;
+    height: 100px;
+    background-size: cover;
+}
+.header-main .main p {
+    text-align: end;
+}
+.header-main .main p :first-child {
+    text-align: end;
+}
+.Information {
+    padding: 15px 0 15px 0;
+    border-bottom: 1px dashed red;
+
+}
+.Information p{
+    margin-top: 15px;
+}
+.title{
+    font-weight: 500;
+    color: red;
+    text-decoration: underline;
+}
+.width{
+    width: 50%;
+    float: left;
+}
+.clear-fix{   
+    clear: both;
+}
